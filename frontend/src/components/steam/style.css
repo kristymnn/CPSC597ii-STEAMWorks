@@ -1,0 +1,44 @@
+/* carousel css */
+
+.whole {
+    background-color: rgb(221, 221, 221);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.description{
+    background-color:white;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.slider {
+    width: 80%;
+    height: 500px;
+  }
+  
+  .slides {
+    position: relative;
+  }
+
+  .slides.slick-prev,
+  .slides.slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+  
+  .slides.slick-prev {
+    left: 5%;
+  }
+  
+  .slides.slick-next {
+    right: 5%;
+  }
+  
+  .imageSize {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
